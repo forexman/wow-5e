@@ -1,0 +1,55 @@
+{
+  "id": "wdandd",
+  "title": "WD&D",
+  "version": "1.0.0",
+  "compatibility": {
+    "minimum": "12",
+    "verified": "12"
+  },
+  "description": "Dungeonstones &amp; Dragonflights",
+  "authors": [
+    {
+      "name": "Nikolaos Tsikinis",
+      "discord": ".negan",
+      "flags": {}
+    }
+  ],
+  "packs": [
+    {
+      "name": "wdnd-classes",
+      "label": "WDnD Classes",
+      "path": "packs/wdnd-classes",
+      "type": "Item",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "system": "dnd5e",
+      "flags": {}
+    },
+    {
+      "name": "wdnd-races",
+      "label": "WDnD Races",
+      "path": "packs/wdnd-races",
+      "type": "Item",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "system": "dnd5e",
+      "flags": {}
+    },
+    {
+      "name": "wdnd-monsters",
+      "label": "WDnD Monsters",
+      "path": "packs/wdnd-monsters",
+      "type": "Actor",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "system": "dnd5e",
+      "flags": {}
+    }
+  ]
+}
